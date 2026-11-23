@@ -1,6 +1,171 @@
 
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>About Us | CareerMatch AI</title>
+
+  <meta name="description"
+    content="Learn about CareerMatch AI and our mission to help people explore career opportunities.">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js?v=5" defer></script>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header>
+  <div class="container nav">
+
+    <a class="brand" href="index.html">
+      CareerMatch <span>AI</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="index.html#quiz">Career Quiz</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+  <!-- ABOUT SECTION -->
+  <section class="container section">
+
+    <div class="eyebrow">
+      Get to know us
+    </div>
+
+    <h1>About CareerMatch AI</h1>
+
+    <p class="intro">
+      Your career journey should be exciting,
+      empowering, and full of possibilities.
+    </p>
+
+    <p>
+      CareerMatch AI is a student-created career
+      exploration platform designed to help
+      individuals discover professional opportunities,
+      identify their strengths, and prepare for
+      their next career move.
+    </p>
+
+  </section>
+
+  <!-- OUR MISSION -->
+  <section class="container section">
+
+    <div class="eyebrow">
+      Our purpose
+    </div>
+
+    <h2>Our Mission</h2>
+
+    <p class="intro">
+      To make career exploration more accessible,
+      engaging, and personalized through
+      technology and interactive tools.
+    </p>
+
+    <div class="cards">
+
+      <article class="card">
+        <h3>🎯 Career Discovery</h3>
+        <p>
+          Help visitors explore career paths
+          based on their interests and strengths.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>💡 Professional Growth</h3>
+        <p>
+          Encourage continuous learning,
+          confidence, and career development.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>🤖 AI-Powered Support</h3>
+        <p>
+          Provide convenient access to an
+          interactive AI chatbot for
+          career-related questions.
+        </p>
+      </article>
+
+    </div>
+
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="container section">
+
+    <div class="eyebrow">
+      Your future starts here
+    </div>
+
+    <h2>How CareerMatch AI Works</h2>
+
+    <p>
+      Start by taking our interactive Career Match
+      Quiz to discover potential career paths.
+    </p>
+
+    <p>
+      Then, use our integrated AI chatbot
+      to explore ideas, ask questions,
+      and receive additional guidance.
+    </p>
+
+    <a class="button" href="index.html#quiz">
+      Take the Career Quiz ✨
+    </a>
+
+  </section>
+
+  <!-- CHATBOT INFORMATION -->
+  <section class="container section">
+
+    <h2>Have Questions?</h2>
+
+    <p class="intro">
+      Our AI chatbot is available on both
+      pages of the website.
+    </p>
+
+    <p>
+      Click the chat icon in the bottom-right
+      corner to start a conversation.
+    </p>
+
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="container">
+
+    <p>
+      © 2026 CareerMatch AI · Student project demonstration
+    </p>
+
+  </div>
+
+</footer>
+
+<!-- REMOVE OLD CHATBOT -->
 <script>
-  // Remove the original CareerMatch chatbot
   function removeOldChatbot() {
     document.getElementById("chatLaunch")?.remove();
     document.getElementById("chatBox")?.remove();
@@ -12,3 +177,21 @@
     setTimeout(removeOldChatbot, 1500);
   });
 </script>
+
+<!-- CHATLING AI CHATBOT -->
+<script>
+  window.chtlConfig = {
+    chatbotId: "2241969531"
+  };
+</script>
+
+<script
+  async
+  data-id="2241969531"
+  id="chtl-script"
+  type="text/javascript"
+  src="https://chatling.ai/js/embed.js">
+</script>
+
+</body>
+</html>
